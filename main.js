@@ -81,7 +81,7 @@
         for (var x = 0, y; x < w; x += size) {
             for (y = 0; y < h; y += size) {
                 zoomOutSquares(ctx, x, y);
-                zoomOut(ctx, x, y);
+                // zoomOut(ctx, x, y);
             }
         }
         setTimeout(fn, delay);
